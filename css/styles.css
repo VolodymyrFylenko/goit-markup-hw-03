@@ -315,6 +315,7 @@ img {
 }
 
 .portfolio-content {
+        border-top: none;
         border: 1px solid #e7e9fc;
         padding: 32px 16px;
 }
