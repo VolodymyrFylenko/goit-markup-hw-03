@@ -26,6 +26,10 @@ p {
         padding: 0;
 }
 
+img {
+        display: block;
+}
+
 .container {
    max-width: 1158px;
    padding: 0 15px;
@@ -126,6 +130,7 @@ p {
 }
 
 .page-title {
+        max-width: 496px;
         margin: auto;
         margin-bottom: 48px;
         width: 496px;
@@ -139,7 +144,11 @@ p {
         color: #fff;
 }
 
-.btn {padding: 16px 32px;
+.btn {
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        padding: 16px 32px;
         border-radius: 4px;
         display: block;
         margin: 0 auto;
@@ -171,7 +180,16 @@ p {
 }
 
 .section-title {
-        display: none;
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0px;
+        border: 0px;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
 }
 
 
@@ -179,7 +197,7 @@ p {
         width: calc((100% - 72px) / 4);
 }
 
-.featur-subtitle {
+.featur-subtitle { margin-bottom: 8px;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -204,6 +222,7 @@ p {
 }
 
 .team-item {
+        border-radius: 0 0 4px 4px;
         background-color: #fff;
 }
 
@@ -219,6 +238,7 @@ p {
 }
 
 .team-subtitle {
+        margin-bottom: 8px;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -243,6 +263,7 @@ p {
 }
 
 .team-name {
+        padding: 32px 0;
         margin-top: 32px;
         margin-bottom: 32px;
 }
@@ -276,6 +297,7 @@ p {
 }
 
 .portfolio-subtitle {
+        margin-bottom: 8px;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -293,6 +315,7 @@ p {
 }
 
 .portfolio-content {
+        border: 1px solid #e7e9fc;
         padding: 32px 16px;
 }
 /* #endregion */
